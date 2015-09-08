@@ -1,7 +1,7 @@
 ---
 title: 'Reproducible Research: Peer Assessment 1'
 author: "Sylvia Seow"
-date: "July 2015"
+date: "September 2015"
 output:
   pdf_document: default
   html_document:
@@ -67,7 +67,8 @@ print (g)
 
 ```
 ```{r}
-maxint <-intervalActivity[max(intervalActivity$steps),1]
+
+maxint <-intervalActivity[intervalActivity$steps==max(intervalActivity$steps),1]
 ```
 The interval that contains the maximum number of steps in the dataset is **`r as.character(maxint)`**
 

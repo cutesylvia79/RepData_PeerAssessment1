@@ -1,6 +1,6 @@
 # Reproducible Research: Peer Assessment 1
 Sylvia Seow  
-July 2015  
+September 2015  
 
 ## Pre load all the required package
 
@@ -8,10 +8,6 @@ July 2015
 ## load all the required library
 library(plyr)
 library(ggplot2)
-```
-
-```
-## Warning: package 'ggplot2' was built under R version 3.2.1
 ```
 ## Loading and preprocessing the data
 The data used for processing will be used from the working directory, if the csv file is not found in the working directory, it will be unzip from the zip file included in the working directory
